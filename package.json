@@ -11,7 +11,12 @@
     "url": "git@github.com:monesign/monesign-ens.git"
   },
   "scripts": {
-    "test": "truffle test"
+    "copyEnsInterface": "cp ./node_modules/@ensdomains/ens/contracts/ENS.sol ./contracts",
+    "copyEnsRegistry": "cp ./node_modules/@ensdomains/ens/contracts/ENSRegistry.sol ./contracts",
+    "copyFifsRegistrar": "cp ./node_modules/@ensdomains/ens/contracts/FIFSRegistrar.sol ./contracts",
+    "copyEnsContracts": "npm run copyEnsInterface && npm run copyEnsRegistry && npm run copyFifsRegistrar",
+    "deployContracts": "./node_modules/.bin/truffle migrate --reset",
+    "test": "./node_modules/.bin/truffle test"
   },
   "author": "Henry Syahputra",
   "license": "MIT",
