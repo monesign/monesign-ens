@@ -1,0 +1,14 @@
+{
+  "name": "monesign-ens",
+  "version": "1.0.0",
+  "description": "Monesign Name Services (Registry, Registrar, Resolver) on private network",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "truffle test"
+  },
+  "author": "Henry Syahputra",
+  "license": "MIT"
+}
