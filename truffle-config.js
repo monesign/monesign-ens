@@ -42,6 +42,17 @@ module.exports = {
     // tab if you use this network and you must also set the `host`, `port` and `network_id`
     // options below to some value.
     //
+
+      // development: {
+      //     // host: "35.159.15.30",     // Localhost (default: none)
+      //     host: "3.125.46.101",
+      //     // provider: () => new HDWalletProvider(mnemonic, `http://35.159.15.30`),
+      //     port: 8545,            // Standard Ethereum port (default: none)
+      //     network_id: "*",       // Any network (default: none)
+      //     gas: 15000000,
+      //     from: "0x00Bd138aBD70e2F00903268F3Db08f2D25677C9e"
+      // },
+
     development: {
      host: "127.0.0.1",     // Localhost (default: none)
      port: 8545,            // Standard Ethereum port (default: none)
